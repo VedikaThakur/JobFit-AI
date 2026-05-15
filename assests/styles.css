@@ -1,0 +1,35 @@
+/* project/assets/styles.css */
+:root {
+    --primary-color: #4CAF50;
+    --background-color: #f4f4f4;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.highlight-box {
+    background-color: #1e1e1e !important;
+    color: white !important;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #4CAF50;
+}
+
+.highlight-box h2, .highlight-box h3 {
+    color: white !important;
+    margin: 0;
+}
+
+.stButton > button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+}
+
+.stExpander {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
